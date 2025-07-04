@@ -1,0 +1,263 @@
+10:40:18.438 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:106)oggger - http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
+10:40:18.454 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalExecRuntime.releaseEndpoint(InternalExecRuntime.java:256)oggger - ep-0000000001 releasing valid endpoint
+10:40:18.454 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.release(PoolingHttpClientConnectionManager.java:389)oggger - ep-0000000001 releasing endpoint
+10:40:18.454 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.release(PoolingHttpClientConnectionManager.java:408)oggger - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+10:40:18.454 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.release(PoolingHttpClientConnectionManager.java:421)oggger - ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+10:40:18.455 [main] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionFromTheShell(VersionDetector.java:238)oggger - Detecting chrome version using online commands.properties
+10:40:18.458 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:65)oggger - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+10:40:18.588 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:69)oggger - Result: Version=137.0.7151.41
+10:40:18.589 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache.checkKeyInResolutionCache(ResolutionCache.java:186)oggger - Resolution chrome137=137.0.7151.40 in cache (valid until 16:48:31 25/05/2025 PDT)
+10:40:18.590 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1219)oggger - Using chromedriver 137.0.7151.40 (resolved driver for Chrome 137)
+10:40:18.591 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache.putValueInResolutionCacheIfEmpty(ResolutionCache.java:119)oggger - Storing resolution chrome=137 in cache (valid until 11:40:18 25/05/2025 PDT)
+10:40:18.600 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1178)oggger - Driver chromedriver 137.0.7151.40 found in cache
+10:40:18.601 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1281)oggger - Exporting webdriver.chrome.driver as C:\Users\Lev\.cache\selenium\chromedriver\win64\137.0.7151.40\chromedriver.exe
+10:40:21.494 [main] INFO  testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:17)oggger - ***Starting Login***
+10:40:23.210 [main] INFO  testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:42)oggger - ***Finished LoginTest***
+13:00:00.466 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+13:00:00.685 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\master.xml
+
+13:00:00.743 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager.<init>(WebDriverManager.java:226)oggger - Using WebDriverManager 5.7.0
+13:00:01.092 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache.checkValidity(ResolutionCache.java:156)oggger - Removing resolution chrome=137 from cache (expired on 2025-05-25T11:40:18.000-0700)
+13:00:01.113 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:164)oggger - ex-0000000001 preparing request execution
+13:00:01.121 [main] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:181)oggger - ex-0000000001 target auth state: UNCHALLENGED
+13:00:01.121 [main] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:187)oggger - ex-0000000001 proxy auth state: UNCHALLENGED
+13:00:01.122 [main] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:123)oggger - ex-0000000001 acquiring connection with route {s}->https://raw.githubusercontent.com:443
+13:00:01.122 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalExecRuntime.acquireEndpoint(InternalExecRuntime.java:101)oggger - ex-0000000001 acquiring endpoint (3 MINUTES)
+13:00:01.124 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.lease(PoolingHttpClientConnectionManager.java:296)oggger - ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+13:00:01.127 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$3.get(PoolingHttpClientConnectionManager.java:318)oggger - ex-0000000001 endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+13:00:01.138 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$3.get(PoolingHttpClientConnectionManager.java:360)oggger - ex-0000000001 acquired ep-0000000001
+13:00:01.138 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalExecRuntime.acquireEndpoint(InternalExecRuntime.java:116)oggger - ex-0000000001 acquired endpoint ep-0000000001
+13:00:01.138 [main] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:130)oggger - ex-0000000001 opening connection {s}->https://raw.githubusercontent.com:443
+13:00:01.139 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:160)oggger - ep-0000000001 connecting endpoint (null)
+13:00:01.142 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:444)oggger - ep-0000000001 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+13:00:01.142 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:138)oggger - raw.githubusercontent.com resolving remote address
+13:00:01.165 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:144)oggger - raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.109.133, raw.githubusercontent.com/185.199.111.133, raw.githubusercontent.com/2606:50c0:8000:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8001:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8003:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8002:0:0:0:0:154]
+13:00:01.169 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:177)oggger - raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.108.133:443 (30 SECONDS)
+13:00:01.169 [main] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:226)oggger - Connecting socket to raw.githubusercontent.com/185.199.108.133:443 with timeout 30 SECONDS
+13:00:01.270 [main] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory.executeHandshake(SSLConnectionSocketFactory.java:299)oggger - Enabled protocols: [TLSv1.3, TLSv1.2]
+13:00:01.270 [main] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory.executeHandshake(SSLConnectionSocketFactory.java:300)oggger - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+13:00:01.270 [main] DEBUG org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory.executeHandshake(SSLConnectionSocketFactory.java:301)oggger - Starting handshake (null)
+13:00:01.437 [main] DEBUG org.apache.hc.client5.http.ssl.TlsSessionValidator.verifySession(TlsSessionValidator.java:59)oggger - Secure session established
+13:00:01.437 [main] DEBUG org.apache.hc.client5.http.ssl.TlsSessionValidator.verifySession(TlsSessionValidator.java:60)oggger -  negotiated protocol: TLSv1.3
+13:00:01.437 [main] DEBUG org.apache.hc.client5.http.ssl.TlsSessionValidator.verifySession(TlsSessionValidator.java:61)oggger -  negotiated cipher suite: TLS_AES_128_GCM_SHA256
+13:00:01.439 [main] DEBUG org.apache.hc.client5.http.ssl.TlsSessionValidator.verifySession(TlsSessionValidator.java:71)oggger -  peer principal: CN=*.github.io
+13:00:01.439 [main] DEBUG org.apache.hc.client5.http.ssl.TlsSessionValidator.verifySession(TlsSessionValidator.java:80)oggger -  peer alternative names: [*.github.io, *.github.com, *.githubusercontent.com, github.com, github.io, githubusercontent.com, www.github.com]
+13:00:01.440 [main] DEBUG org.apache.hc.client5.http.ssl.TlsSessionValidator.verifySession(TlsSessionValidator.java:84)oggger -  issuer principal: CN=Sectigo RSA Domain Validation Secure Server CA, O=Sectigo Limited, L=Salford, ST=Greater Manchester, C=GB
+13:00:01.441 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.setSocketTimeout(DefaultManagedHttpClientConnection.java:165)oggger - http-outgoing-0 set socket timeout to 3 MINUTES
+13:00:01.441 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:185)oggger - raw.githubusercontent.com:443 connected null->raw.githubusercontent.com/185.199.108.133:443 as http-outgoing-0
+13:00:01.441 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:456)oggger - ep-0000000001 connected http-outgoing-0
+13:00:01.441 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)oggger - ep-0000000001 endpoint connected
+13:00:01.442 [main] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:107)oggger - ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+13:00:01.442 [main] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies.process(RequestAddCookies.java:129)oggger - ex-0000000001 Cookie spec selected: strict
+13:00:01.449 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:214)oggger - ep-0000000001 start execution ex-0000000001
+13:00:01.449 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:710)oggger - ep-0000000001 executing exchange ex-0000000001 over http-outgoing-0
+13:00:01.450 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onRequestSubmitted(DefaultManagedHttpClientConnection.java:200)oggger - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+13:00:01.450 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onRequestSubmitted(DefaultManagedHttpClientConnection.java:203)oggger - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+13:00:01.450 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onRequestSubmitted(DefaultManagedHttpClientConnection.java:203)oggger - http-outgoing-0 >> accept-encoding: gzip, deflate, br
+13:00:01.450 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onRequestSubmitted(DefaultManagedHttpClientConnection.java:203)oggger - http-outgoing-0 >> cache-control: max-age=0
+13:00:01.450 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onRequestSubmitted(DefaultManagedHttpClientConnection.java:203)oggger - http-outgoing-0 >> connection: keep-alive
+13:00:01.450 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onRequestSubmitted(DefaultManagedHttpClientConnection.java:203)oggger - http-outgoing-0 >> Host: raw.githubusercontent.com
+13:00:01.451 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+13:00:01.451 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+13:00:01.451 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+13:00:01.451 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+13:00:01.451 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+13:00:01.451 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+13:00:01.451 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 >> "[\r][\n]"
+13:00:01.476 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+13:00:01.476 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+13:00:01.476 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Content-Length: 946[\r][\n]"
+13:00:01.476 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+13:00:01.476 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+13:00:01.476 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+13:00:01.476 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"[\r][\n]"
+13:00:01.476 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+13:00:01.477 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+13:00:01.477 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+13:00:01.477 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+13:00:01.477 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "X-GitHub-Request-Id: 81E4:26791F:15CA7CA:1B90CD8:682DE8F6[\r][\n]"
+13:00:01.477 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+13:00:01.477 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+13:00:01.477 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Date: Sun, 25 May 2025 20:00:01 GMT[\r][\n]"
+13:00:01.477 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+13:00:01.477 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "X-Served-By: cache-bfi-krnt7300107-BFI[\r][\n]"
+13:00:01.477 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+13:00:01.478 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "X-Cache-Hits: 2[\r][\n]"
+13:00:01.478 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "X-Timer: S1748203202.632765,VS0,VE0[\r][\n]"
+13:00:01.478 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+13:00:01.478 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+13:00:01.478 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
+13:00:01.478 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "X-Fastly-Request-ID: 934001383d2dfc2806553f52a7f6a91645a86a19[\r][\n]"
+13:00:01.478 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Expires: Sun, 25 May 2025 20:05:01 GMT[\r][\n]"
+13:00:01.478 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "Source-Age: 281[\r][\n]"
+13:00:01.478 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "[\r][\n]"
+13:00:01.486 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:189)oggger - http-outgoing-0 << HTTP/1.1 200 OK
+13:00:01.486 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Connection: keep-alive
+13:00:01.486 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Content-Length: 946
+13:00:01.486 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Cache-Control: max-age=300
+13:00:01.487 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+13:00:01.487 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+13:00:01.487 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"
+13:00:01.487 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+13:00:01.487 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << X-Content-Type-Options: nosniff
+13:00:01.487 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << X-Frame-Options: deny
+13:00:01.487 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+13:00:01.487 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << X-GitHub-Request-Id: 81E4:26791F:15CA7CA:1B90CD8:682DE8F6
+13:00:01.488 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Content-Encoding: gzip
+13:00:01.488 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Accept-Ranges: bytes
+13:00:01.488 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Date: Sun, 25 May 2025 20:00:01 GMT
+13:00:01.488 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Via: 1.1 varnish
+13:00:01.488 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << X-Served-By: cache-bfi-krnt7300107-BFI
+13:00:01.488 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << X-Cache: HIT
+13:00:01.488 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << X-Cache-Hits: 2
+13:00:01.489 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << X-Timer: S1748203202.632765,VS0,VE0
+13:00:01.489 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+13:00:01.489 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Access-Control-Allow-Origin: *
+13:00:01.489 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Cross-Origin-Resource-Policy: cross-origin
+13:00:01.489 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << X-Fastly-Request-ID: 934001383d2dfc2806553f52a7f6a91645a86a19
+13:00:01.489 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Expires: Sun, 25 May 2025 20:05:01 GMT
+13:00:01.490 [main] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection.onResponseReceived(DefaultManagedHttpClientConnection.java:192)oggger - http-outgoing-0 << Source-Age: 281
+13:00:01.498 [main] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:138)oggger - ex-0000000001 connection can be kept alive for 3 MINUTES
+13:00:01.515 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:92)oggger - http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]X[0xffffffd1]n[0xffffffda]0[0x14]}[0xffffffe7]+,[0xffffffba]J [0x11][0xffffffb2][0x1][0xffffffeb][0xffffffaa]Jy[0xffffffa0][0x19]e[0xffffffd5][0xffffffa8]`[0xffffffd0]v[0xffffff9b][0xffffffe4][0x17][0xffffff93]8`)[0xffffff89]Q[0xffffff9c]@[0xffffffb7][0xffffffa9][0xfffffffb][0xfffffff6]9NB[0xffffffe3]$[0xc]H[0xffffffe0][0xffffffad][0xffffff8e][0xffffff8f][0xffffffef]97[0xffffffdc]s}[0xffffffd3][0xb][0xffffffa0]S[0xffffffc7]A[0xffffffae][0xffffffc9][0xffffff80][0xffffff89]|4G[0xc][0xffffffd7].[0xffffffc0][0xffffffe3][0xffffff92]0`[0x11][0x1b][0x3][0xffffff83][0xffffffba]>".[0x3][0xfffffffe]2\[0xffffffc4]P[0xffffff9f][0xffffff82]9[0x6][0xfffffff8][0x5][0x1b][0xffffff81][0xffffff8f]M@\[0xffffffb1][0xffffffcd][0xffffff96][0xffffffd8][0xffffffb6][0xffffffc3][0x5][0xfffffff5]L[0xffffffec][0xffffff85] [0x13][0xfffffffb][0xffffffd8][0xfffffff0][0xffffffc5][0xffffffe6][0x1a]{[0xffffff8c]P[0xffffffbe]g[0x1][0xffffffcc][0xffffffff]^x[0x18][0xffffffbb]`[0xffffffee][0xffffffd1][\r][0xffffffe3][0x1b][0xffffff9c][0xffffffb2][0xffffffa1]/=[0xffffffea][0xffffffe0][0x16][0xffffffb8]#[0x1e][0xffffffb6][0xffffffe8]K[0xb][0xffffff8c]W[0xffffffd8]C-00[0x17][0xfffffffc][0xffffffa9][0xffffffd8]%[0xffffff81][0xffffffd3][0xc][0xffffffe3][0xffffff9b][0xffffffc4][0xffffffb2][0xffffffb0][0xffffff87]][0x1f][0xffffffd0][0x10][0xffffffe3][0x13]w[0x1][0xffffffd8]/[0xffffffe6]c[0xffffff87][0xffffff81][0xffffffc6]w[0xffffffe2][0xffffff9a]<j[0xb][0xffffff8c][0xffffff88][0x1b][0xfffffff0]0[0xf][0xffffffc8][0x0][0xffffffe3]Y[0xffffffb3][0xffffffc6]9"[0xffffff8a]Z[0xffffff9c]F[0xffffffdb][0x10][0xffffffcb][0xfffffff6]&:[0xffffffd0]~[0xffffffff]A3[0x1c][0xffffffb3][0xffffffcd][0xffffffb3][0x2][0xffffffaa][0xe]6[0xe]1[0xffffffc4]+[0x11][0xffffffaf]a[0xffffffb3][0xffffffe4]|[0xffffffc0]E[0xe][0xffffffd6][0xffffffea][0xffffff97][0xffffff93][0xffffffe9]x8[0xffffffed]?[0xffffffdc][0xffffffdd][0xffffff8f][0x6][0xffffffb3][0x1b][0xffffffa8]Ax[0x9][0xffffffe1][0xffffff90][0xffffffd2][0xffffff85][0xffffff8d]![0xffffff8c]( [0xffffffec][0xffffffaf]V61[0xffffffb8]4[0xffffffea]B[0x18][0x13][0xfffffff1][0xffffffc8]u[0xffffffb0][0xffffffc0]>x[0xffffff8e][0xffffffdf][0xffffff85][0xffffffba]Fv[0xffffffb0][O[0xffffffa7][0xffffff84][0xffffff9e][0xffffffc6][0xffffff8f][0xffffffeb][0xffffffab][0xffffffe6]9Eu[0xf][0x14]5[0x1a][0xffffffeb][0xfffffffd]Q[0x7f]2[0xfffffff9][0xffffffdc][0x7f][0xffffffec][0xffffff9f]SOO[0xffffff9b][0xe][0xffffff86][0xffffffe0][0xffffffdb][0xffffffd3]`[0xfffffffa][0x13]|[0xfffffff9][0xffffffaa]?[0xffffffc1][0x19][0xffffffb5][0xfffffffc][\r][0xfffffff2]p[0xffffffc2][0x16][0xffffff93][0xffffffdd][0xffffff8e]n12D[0xffffffbc][0xffffffa4][0x16]w[0xffffffc6][0xfffffffc][0xffffffa8][0xffffffad][0xffffffe8][0xffffff86]c[0xffffffc2]z[0x16][0xffffffa9]*[0xffffffb1]I@c[0xffffff88]}[0xffffffe5][0xffffff9e][0x17][0x1a][0xffffffa8][0xffffffbf][0xfffffffb][0xffffff83][0xffffffdd][0xfffffff5]M:[0xffffffcd][0xffffffd7][0xc]e:[0xffffffbd]Tv[0xffffffcd]v[0xffffff9c][0xffffffda][0xffffffbd]k[0xffffffd1][0xfffffff6][0xffffffc4][0xffffffa3]f`[0xfffffff8][0xffffffcf]{$][0x1d].)W[0xe][0xffffffe7][0xffffffd4][0xfffffff5][0xffffffa9][0xffffff9c][0xffffffae]SH[0xffffffca]j[0xffffffb2]C[0xffffffbf][0xffffff87].V[0x3][0xffffffe6][0xffffffa9]s[0xffffffe2][0xffffffaa][0xb][0xffffffc1][0xffffffa1]D[0xfffffffb]@Qv[0xfffffffc][0xffffffee][0xfffffff1][0xffffffc1][0xffffff8e][0xffffffb6][0xb][0xffffff9f]=[0xffffffe0] C[0xfffffff0][0xffffffa4]T35J([0xffffffee]1m[0xffffffb4]Z[0xffffffa9]:[0xffffffef][0xffffff9d][0xffffffbc]I1[0xffffff95][0xffffffb7][0xffffffa0][0xfffffff1]L[0x6][0xffffffa4][0xffffffa3][0xfffffff3][0xffffffce][0x14]7[0xffffffbd]-[0xffffff91][0x15][0xffffffad]O[0xffffffd3][0xffffff9b][0x1e][0xffffffe8]ob[0xffffffdb](![0xffffff81]0[0xffffff89][0xffffffbe][0xffffffcf]k9[0x15][0xffffff95];[0xffffffd2][0xffffffe9][0xffffffa4]tS[0xffffffbe][0xffffffaf][0xffffffcb][0xffffffc6][0xffffff8f]I[0xffffffb2]d[0xfffffff5][0xffffffd0][0xfffffffa]z[0xffffffe0][0xffffff85][0x17]G[0xffffffb6][0xffffffac]s[0xffffffe1]{[0xffffff95][0xfffffffc][0x16]1[0xffffffff][0xfffffffd] [0xffffffa5]w[0xffffff90][0xffffffbf]rB[0xffffff8e][0xffffffe8]E[0xffffffb2][0xffffffc1][0xffffff8e][0xffffffd7][0xffffff90][0x13][0xffffff91]wT[0xffffffbc][0x3][0xffffff94][0xfffffff5].pGKar[0xffffffa0]B[0xffffffe7][0xffffffc4][0xffffffbf]O[0xffffff91]g[0xffffffd2][0xffffffb1][0xffffffb8]M[0xffffffc2]Y`[0x1b][0x13][0xfffffff3]E5[0xffffff83][0xffffffc8][0xffffffa5]I[0xc][0xffffff8f]2^C[0x10][0xffffff86]4[0xffffff99][0xffffffdb][0xffffffc9]a[0xffffff82]n_[0xffffff99][0xffffffca][0xffffff9a][0xffffffca][0xffffffd8][0xffffffe5][0xffffff8c]r[0xffffffba];[0xffffffaf][0xffffffca]72[0xffffffc1][0xfffffff5][0xffffffbf][0xffffffbb]R[0xe]Y[0xffffffd2]&[0xffffffaf]Y[0xffffffc6]tr[0xffffffa9][0xffffffdc][0xe][0xffffffb2][0xffffff8c][0xffffffac][0xffffffa8][0xffffffa4]_[0x12][0xffffffe3]V[0xffffff97]U[0xffffff93][0xffffff85][0xffffffe5]=[0xffffffe4]$[0x1c]J[0x8]([0xffffffb8][0xffffff96][0xffffffd2][0xffffffe7]:[0xffffffda]N[0xffffffb8][0xffffff8c]/t[0xffffffd6]6[0x1d][0xffffffe1][0xffffff9c]"[0xffffff83][0xffffffc9][0x8] ]Jb[0x0][0xffffffdf][0xffffffb2][0xffffff88]Q[0xfffffffb]x[0xffffffbf][0x15][0xffffffcd][0xffffff81][0xfffffffc][0xffffff8d]-<[0xffffffe4]0[0x8][0x5][0x5][0xffffff84]Q[0xffffffec]}[0xffffffd5][0xffffff9c]QP[0xffffffc5]][0xffffffa7]QPe[0x16][0xffffff8e]ym[0x14][0xffffffb8][0x6][0xffffffc7][0x1e]K[0xffffffdd][0xffffffab][0xffffff90]|E[0xffffffea][0xffffffd2]7R[0xffffffc4]+[0xffffffd1][0x1e]d[0xfffffff0][0xc][0xffffffff][0x11][0xffffffa3][0xffffffb0]<[0xffffff9d][0xffffff9f][0xffffff88][0xffffffbf][0xfffffff4][0xffffffc8][0xffffffbb]-[0xffffffba]H[0xffffffc8][[0xffffffc9][0xffffff95]Qq][0xfffffff6]-[0xffffff94]S[0xffffff91][0xffffff91][0xffffff91][0xffffffef]j[0xffffffe2]yA3[0xffffff93][0xfffffff0][0x1d]-[0xb][0xffffffcb][0xffffffe0][\n]"
+13:00:01.515 [main] DEBUG org.apache.hc.client5.http.impl.Wire.wire(Wire.java:106)oggger - http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
+13:00:01.517 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalExecRuntime.releaseEndpoint(InternalExecRuntime.java:256)oggger - ep-0000000001 releasing valid endpoint
+13:00:01.517 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.release(PoolingHttpClientConnectionManager.java:389)oggger - ep-0000000001 releasing endpoint
+13:00:01.518 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.release(PoolingHttpClientConnectionManager.java:408)oggger - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+13:00:01.518 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.release(PoolingHttpClientConnectionManager.java:421)oggger - ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+13:00:01.519 [main] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector.getBrowserVersionFromTheShell(VersionDetector.java:238)oggger - Detecting chrome version using online commands.properties
+13:00:01.523 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:65)oggger - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+13:00:01.708 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell.runAndWaitArray(Shell.java:69)oggger - Result: Version=137.0.7151.41
+13:00:01.709 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache.checkKeyInResolutionCache(ResolutionCache.java:186)oggger - Resolution chrome137=137.0.7151.40 in cache (valid until 16:48:31 25/05/2025 PDT)
+13:00:01.710 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1219)oggger - Using chromedriver 137.0.7151.40 (resolved driver for Chrome 137)
+13:00:01.711 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache.putValueInResolutionCacheIfEmpty(ResolutionCache.java:119)oggger - Storing resolution chrome=137 in cache (valid until 14:00:01 25/05/2025 PDT)
+13:00:01.721 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1178)oggger - Driver chromedriver 137.0.7151.40 found in cache
+13:00:01.722 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1281)oggger - Exporting webdriver.chrome.driver as C:\Users\Lev\.cache\selenium\chromedriver\win64\137.0.7151.40\chromedriver.exe
+08:34:34.897 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\grouping.xml"
+08:34:35.096 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\grouping.xml
+
+08:36:14.961 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\grouping.xml"
+08:36:15.142 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\grouping.xml
+
+08:37:12.722 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\AppData\Local\Temp\testng-eclipse-965125105\testng-customsuite.xml"
+08:37:12.874 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+08:37:12.877 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+08:37:12.878 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.879 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.879 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.879 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.880 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.880 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.885 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+08:37:12.891 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+08:37:12.893 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+08:37:12.893 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.894 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.894 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.894 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.895 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.896 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.896 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.897 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.897 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.897 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.898 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.898 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.898 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.899 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.899 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.900 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.900 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.900 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+08:37:12.900 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+08:37:12.906 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\AppData\Local\Temp\testng-eclipse-965125105\testng-customsuite.xml
+
+08:37:12.920 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+08:37:13.060 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.jq.Main@9635fa: 42 ms
+08:37:13.070 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.FailedReporter@6865c751: 10 ms
+08:37:13.081 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.XMLReporter@5fd62371: 11 ms
+08:37:13.088 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6e521c1e: 7 ms
+08:37:13.095 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@10c8f62: 7 ms
+08:37:13.095 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.internal.ExitCodeListener@674c583e: 0 ms
+20:09:50.136 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+20:09:50.328 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\master.xml
+
+20:10:33.770 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+20:10:33.982 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\master.xml
+
+20:15:06.721 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\crossbrowserteting.xml"
+20:15:06.790 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+20:15:06.925 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\crossbrowserteting.xml
+
+20:15:09.866 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:26)oggger - ***Starting Test Case***
+20:15:09.881 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:30)oggger - Clicked Register button
+20:15:29.943 [main] ERROR testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:64)oggger - Test failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Register']' (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Register']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.19.1.jar:?]
+	at pageObject.HomePage.clickRegister(HomePage.java:39) ~[test-classes/:?]
+	at testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:31) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.9.0.jar:7.9.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Register']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [7548da59a46d1c6020af8b7e793e5e69, findElement {value=//button[text()='Register'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Lev\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.0.0.224:4444/sessio..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7548da59a46d1c6020af8b7e793e5e69
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.19.1.jar:?]
+	at jdk.proxy2.$Proxy29.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.19.1.jar:?]
+	... 28 more

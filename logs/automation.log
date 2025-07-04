@@ -1,0 +1,20 @@
+11:51:12.411 [main] INFO  testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:18)oggger - ***Starting Login***
+11:51:14.245 [main] INFO  testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:43)oggger - ***Finished LoginTest***
+10:12:18.817 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+10:15:41.897 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+10:18:57.594 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+10:38:56.424 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+10:40:41.578 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+10:48:20.572 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+10:51:51.110 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+10:52:17.879 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+10:59:04.086 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\grid-docker.xml"
+10:59:04.321 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\grid-docker.xml
+
+10:59:20.083 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\grouping.xml"
+10:59:20.291 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\grouping.xml
+
+11:00:09.648 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+11:03:22.024 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
