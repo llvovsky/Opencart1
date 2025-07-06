@@ -191,3 +191,29 @@ Session ID: e79f00df5777da3652c18ca86bc563f0
 21:56:49.732 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
   C:\Users\Lev\eclipse-workspace\Opencart1\master.xml
 
+22:45:23.937 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+22:45:24.128 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\master.xml
+
+22:46:09.857 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+22:46:10.051 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\master.xml
+
+22:47:16.879 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+22:47:17.085 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\master.xml
+
+22:48:42.563 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+22:51:23.462 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+22:51:23.648 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Lev\eclipse-workspace\Opencart1\master.xml
+
+23:01:40.864 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+23:14:27.336 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Lev\eclipse-workspace\Opencart1\master.xml"
+23:14:30.088 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:26)oggger - ***Starting Test Case***
+23:14:30.106 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:30)oggger - Clicked Register button
+23:14:30.495 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:35)oggger - Providing customer details..
+23:14:38.206 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:51)oggger - Validating expected message
+23:14:38.252 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:54)oggger - Confirmation message received: Registration successful!
+23:14:38.255 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:68)oggger - ***Finished Test Case***
+23:14:38.255 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_reqistration(TC001_AccountRegistrationTest.java:69)oggger - Launching URL: https://tutorialsninja.com/demo/index.php?route=account/login
