@@ -5,13 +5,6 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verify_account_reqistration"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
       <class name="testCases.TC002_LoginTest">
         <methods>
           <include name="tearDown"/>

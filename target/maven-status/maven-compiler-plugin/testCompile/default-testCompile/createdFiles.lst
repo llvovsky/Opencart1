@@ -1,10 +1,11 @@
+pageObject\MyAccountPage.class
+testBase\BaseClass.class
+testCases\TC002_LoginTest.class
 testCases\TC003_Login_DDT.class
 testCases\TC001_AccountRegistrationTest.class
-pageObject\MyAccountPage.class
+testCases\TC004_Search.class
 utilities\ExtentReportManager.class
 pageObject\AccountRegistrationPage.class
-testBase\BaseClass.class
 pageObject\BasePage.class
 pageObject\HomePage.class
 pageObject\LoginPage.class
-testCases\TC002_LoginTest.class
